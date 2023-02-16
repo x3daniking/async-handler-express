@@ -60,7 +60,7 @@ Now, we need to create this middleware in the root file i.e index/app/server (wh
 
 
 
-Well, there we go. We have successfully handled our error without annoying try catch or promise chaining. You simply need to wrap each function of yours with catchAsync and any uncaught errors or unhandled promise rejection 
+Well, there we go. We have successfully handled our error without annoying try catch or promise chaining. You simply need to wrap each function of yours with catchAsync and any uncaught errors or unhandled promise rejections will be handled but these middlewares. No try catch and no unhandled promise rejection warnings
 
 
 ![handledExceptionResponse](https://user-images.githubusercontent.com/22536839/219336018-54f13135-f5d3-427e-b3ac-cc4c6bf7ac99.PNG)
