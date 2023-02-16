@@ -28,6 +28,9 @@ While the code is broken, api is continously hit until the timeout
 # With catchAsync - caught the error
 
 Now, we simply create a middleware and export it. Basically what this middleware does is it takes the function as a whole and attached the catch block to the function in which it passed the caught err object using next(err) back to the express
+
+
+
 ![catchAsync](https://user-images.githubusercontent.com/22536839/219334890-0ce9bfec-749e-4c96-be85-aa923407332a.PNG)
 
 
